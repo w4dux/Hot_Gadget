@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@600;&display=swap");
+
+.logo {
+  width: 80%;
+}
+
+nav {
+  margin-top: 1%;
+  font-size: 115%;
+}
+
+.orange-bg {
+  margin-top: 2.5%;
+  background-color: #ffffff;
+}
+
+.carousel-item {
+  padding: 3% 13%;
+}
+
+.buy-but {
+  position: absolute;
+  bottom: 8%;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+
+.col-md-7 h1 {
+  color: #1c1f23;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.col-md-7 p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  color: #3f4246;
+}
+
+.bg-image {
+  margin-left: -4%;
+}
+
+.bg-image img {
+  width: 13%;
+}
+
+.cat-name {
+  margin-top: -10%;
+}
+
+.cat-name a {
+  text-decoration: none;
+  color: rgb(219, 75, 31);
+  font-size: 105%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.cat-name h3 {
+  color: #1c1f23;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+.card-body h5 {
+  text-align: center;
+  color: #1c1f23;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.card-body p {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: rgb(75, 76, 77);
+}
+
+.diskaka img {
+  padding-top: 3%;
+  width: 72%;
+  margin: auto;
+}
+
+.card-body h4 {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  color: rgb(12, 13, 31);
+}
+
+.pr-but {
+  display: flex;
+  margin: 3% auto;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  padding: 2% 4%;
+}
+
+.laptop {
+  margin-top: 12%;
+}
+
+.banner {
+  width: 90%;
+}
+
+.no-hand {
+  -webkit-box-shadow: 5px 5px 12px -5px rgba(0, 0, 0, 0.6);
+  box-shadow: 5px 5px 12px -5px rgba(0, 0, 0, 0.6);
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 10% 10%;
+}
+
+.sec-div img {
+  width: 100%;
+}
+
+.main-div {
+  margin: 4% 0%;
+}
+
+.cat-text {
+  text-align: center;
+  margin-bottom: 3%;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  color: rgb(15, 15, 15);
+}
+
+.under-line {
+  height: 6px;
+  width: 80px;
+  margin-top: 1%;
+  border-radius: 15%;
+  background: rgb(247, 114, 18);
+  background: linear-gradient(
+    87deg,
+    rgba(247, 114, 18, 0.9556022237996761) 0%,
+    rgba(247, 114, 18, 0.9556022237996761) 53%,
+    rgba(255, 100, 17, 1) 100%
+  );
+  display: flex;
+  margin: 0 auto;
+}
+
+.no-hand h3 {
+  font-family: "Baloo Tammudu 2", cursive;
+  font-weight: 500;
+  margin-top: 10%;
+  color: rgb(32, 32, 32);
+}
+
+.mt-4 h3 {
+  margin-top: -18%;
+}
+
+h6 {
+  text-align: center;
+}
+
+
+.carousel-control-prev-icon {
+    background-color: rgb(253, 58, 37);
+padding: 12% 10%;
+}
+.carousel-control-next-icon {
+    background-color: rgb(253, 58, 37);
+    padding: 12% 10%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .child1  {
+        display: flex;
+justify-content: center;
+    } 
+.cl-test {
+    display: flex;
+    justify-content: center;
+}
+
+.main-div  {
+    margin-top: 10%;
+}
+.cat-text {
+    margin-bottom: 12%;
+}
+.poster {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+footer h6{
+font-size: 75%;
+}
+.laptop {
+    margin-top: 20%;
+}
+.smart {
+    margin-top: 15%;
+}
+.buy-but {
+position: absolute;
+bottom: -3%;
+z-index: 12;
+display: none;
+}
+
+.bg-image {
+    display: none;
+    z-index: 0;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+
+}
